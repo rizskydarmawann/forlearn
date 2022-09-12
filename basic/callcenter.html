@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BASIC</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="frontend/css/bootstrap.css" />
+    <link rel="stylesheet" href="frontend/css/all.css" />
+    <link rel="stylesheet" href="frontend/css/style.css" />
+    <link rel="stylesheet" href="frontend/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-more">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <h1 class="my-auto">BASIC</h1>
+        </a>
+
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tentang.html">Tentang BASIC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="termandcondition.html"
+                >Term And Condition</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href=""
+                class="nav-link d-inline-block d-block d-lg-none"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+              >
+                <div class="card-badge badge badge-counter ml-5">3</div>
+                Notifikasi
+              </a>
+              <div class="dropdown-menu">
+                <a href="pemberitahuan.html" class="dropdown-item"
+                  ><h6>Pengajuan jadwal anda ditolak</h6>
+                  <p>30 Menit lalu</p></a
+                >
+                <a href="pemberitahuan.html" class="dropdown-item"
+                  ><h6>Berikan review dan ulasan</h6>
+                  <p>30 Menit lalu</p></a
+                >
+              </div>
+            </li>
+            <li class="nav-item d-block d-lg-none">
+              <a href="#" class="nav-link">Hai, Juan Arya Prayudya</a>
+            </li>
+          </ul>
+
+          <!---desktop-->
+          <ul class="navbar-nav d-none d-lg-flex">
+            <li class="nav-item dropdown my-auto mx-4">
+              <a
+                href="#"
+                class="nav-link d-inline-block"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+              >
+                <div class="card-badge badge badge-counter">3</div>
+                <img src="frontend/image/vector.svg" alt="lonceng" />
+              </a>
+              <div class="dropdown-menu">
+                <a href="pemberitahuan.html" class="dropdown-item"
+                  ><h6>Pengajuan jadwal anda ditolak</h6>
+                  <p>30 Menit lalu</p></a
+                >
+                <a href="pemberitahuan.html" class="dropdown-item"
+                  ><h6>Berikan review dan ulasan</h6>
+                  <p>30 Menit lalu</p></a
+                >
+              </div>
+            </li>
+            <li class="nav-item my-auto">
+              <a class="nav-link" href="#">
+                <img
+                  src="frontend/image/profile.png"
+                  alt="foto-user"
+                  class="rounded-circle profile-picture"
+                />Hai, Juan Arya Prayudya</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <section class="content-more">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <img src="frontend/image/callcenter.png" alt="" class="mx-auto" />
+            <h3>Mohon menunggu konfirmasi jadwalmu dalam 2x24 jam</h3>
+            <p>Terima kasih</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="section-footer mb-4 border-top">
+      <div class="container pt-5 pb-3">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-lg-5 logo-footer">
+                <a href="index.html"> BASIC </a>
+              </div>
+              <div class="col-12 col-lg-4">
+                <h5>Legacy Website BRIstars</h5>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="">BRIstars</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>Products</h5>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="">Products</a>
+                  </li>
+                  <li>
+                    <a href="">API & Documentation</a>
+                  </li>
+                  <li>
+                    <a href="">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid pt-4 pb-1 border-top">
+        <div class="row justify-content-center">
+          <div
+            class="col-auto text-gray-500 font-weight-drak"
+            style="font-size: 14px"
+          >
+            © 2020 PT. Bank Rakyat Indonesia (Persero) Tbk
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="frontend/js/jquery-3.4.1.min.js"></script>
+    <script src="frontend/js/popper.min.js"></script>
+    <script src="frontend/js/bootstrap.js"></script>
+    <script src="frontend/js/all.js"></script>
+    <script src="frontend/js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BASIC</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="frontend/css/bootstrap.css" />
+    <link rel="stylesheet" href="frontend/css/all.css" />
+    <link rel="stylesheet" href="frontend/css/style.css" />
+    <link rel="stylesheet" href="frontend/css/responsive.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-basic">
+      <div class="container">
+        <a class="navbar-brand" href="#"> <h1 class="my-auto">BASIC</h1> </a>
+
+        <div class="menu-toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+
+        <div class="collapse navbar-collapse">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="tentang.html">Tentang BASIC</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="termandcondition.html"
+                >Term And Condition</a
+              >
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                href=""
+                class="nav-link d-inline-block d-block d-lg-none"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+              >
+                <div class="card-badge badge badge-counter ml-5">3</div>
+                Notifikasi
+              </a>
+              <div class="dropdown-menu">
+                <a href="pemberitahuan.html" class="dropdown-item"
+                  ><h6>Pengajuan jadwal anda ditolak</h6>
+                  <p>30 Menit lalu</p></a
+                >
+                <a href="pemberitahuan.html" class="dropdown-item"
+                  ><h6>Berikan review dan ulasan</h6>
+                  <p>30 Menit lalu</p></a
+                >
+              </div>
+            </li>
+            <li class="nav-item d-block d-lg-none">
+              <a href="#" class="nav-link">Hai, Juan Arya Prayudya</a>
+            </li>
+          </ul>
+
+          <!---desktop-->
+          <ul class="navbar-nav d-none d-lg-flex">
+            <li class="nav-item dropdown my-auto mx-4">
+              <a
+                href="#"
+                class="nav-link d-inline-block"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+              >
+                <div class="card-badge badge badge-counter">3</div>
+                <img src="frontend/image/vector.svg" alt="lonceng" />
+              </a>
+              <div class="dropdown-menu">
+                <a href="pemberitahuan.html" class="dropdown-item"
+                  ><h6>Pengajuan jadwal anda ditolak</h6>
+                  <p>30 Menit lalu</p></a
+                >
+                <a href="pemberitahuan.html" class="dropdown-item"
+                  ><h6>Berikan review dan ulasan</h6>
+                  <p>30 Menit lalu</p></a
+                >
+              </div>
+            </li>
+            <li class="nav-item my-auto">
+              <a class="nav-link" href="#">
+                <img
+                  src="frontend/image/profile.png"
+                  alt="foto-user"
+                  class="rounded-circle profile-picture"
+                />Hai, Juan Arya Prayudya</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <section class="header"></section>
+
+    <main>
+      <section class="judul">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <h3>Pilih Coach</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="ac">
+        <form class="active form-inline">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 d-flex ml-auto">
+                <i
+                  class="fas fa-search mt-2 ml-0"
+                  style="color: #2f80ed"
+                  aria-hidden="true"
+                ></i>
+                <input
+                  class="form-control mb-4"
+                  id="listSearch"
+                  type="text"
+                  placeholder="Masukan Nama/PN"
+                />
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-8 col-md-6">
+                <div class="row" id="myList">
+                  <div class="col-lg-6 col-md-12 mb-4 kolom">
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div
+                        class="card option_inner shadow"
+                        style="max-width: 540px"
+                      >
+                        <div class="tickmark"></div>
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <img
+                              src="frontend/image/fotonametagrizsky.jpg"
+                              class="card-img"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title mb-0">Rizsky Darmawan</h5>
+                              <p class="card-title">Web Developer/Karyawan</p>
+                              <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="col-lg-6 col-md-12 mb-4 kolom">
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div
+                        class="card option_inner shadow"
+                        style="max-width: 540px"
+                      >
+                        <div class="tickmark"></div>
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <img
+                              src="frontend/image/fotonametagrizsky.jpg"
+                              class="card-img"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title mb-0">Reza Darmawan</h5>
+                              <p class="card-title">Web Developer/Karyawan</p>
+                              <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="col-lg-6 col-md-12 mb-4 kolom">
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div
+                        class="card option_inner shadow"
+                        style="max-width: 540px"
+                      >
+                        <div class="tickmark"></div>
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <img
+                              src="frontend/image/fotonametagrizsky.jpg"
+                              class="card-img"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title mb-0">Rahmat Darmawan</h5>
+                              <p class="card-title">Web Developer/Karyawan</p>
+                              <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="col-lg-6 col-md-12 mb-4 kolom">
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div
+                        class="card option_inner shadow"
+                        style="max-width: 540px"
+                      >
+                        <div class="tickmark"></div>
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <img
+                              src="frontend/image/fotonametagrizsky.jpg"
+                              class="card-img"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title mb-0">Riko Darmawan</h5>
+                              <p class="card-title">Web Developer/Karyawan</p>
+                              <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                  <div class="col-lg-6 col-md-12 mb-4 kolom">
+                    <label class="option_item">
+                      <input type="checkbox" class="checkbox" />
+                      <div
+                        class="card option_inner shadow"
+                        style="max-width: 540px"
+                      >
+                        <div class="tickmark"></div>
+                        <div class="row no-gutters">
+                          <div class="col-md-4">
+                            <img
+                              src="frontend/image/fotonametagrizsky.jpg"
+                              class="card-img"
+                              alt="..."
+                            />
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title mb-0">Riyan Darmawan</h5>
+                              <p class="card-title">Web Developer/Karyawan</p>
+                              <p class="card-text">
+                                This is a wider card with supporting text below
+                                as a natural lead-in to additional content. This
+                                content is a little bit longer.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </label>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12 mb-4">
+                    <div class="card card-stats shadow">
+                      <!-- Card body -->
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                            <h5
+                              class="card-title text-uppercase text-muted pb-2"
+                            >
+                              Tanggal Pertama
+                            </h5>
+                            <div class="form-group pb-3">
+                              <input class="form-control" type="date" />
+                            </div>
+                          </div>
+                          <div class="col-auto">
+                            <div
+                              class="bg-gradient-danger text-center bg-calender text-white rounded-circle shadow"
+                            >
+                              <i class="fa fa-calendar-alt"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="mb-0 text-sm">
+                          Pilih Tanggal Sesudah Hari Ini
+                          <span class="text-danger">*</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12 mb-4">
+                    <div class="card card-stats shadow">
+                      <!-- Card body -->
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                            <h5
+                              class="card-title text-uppercase text-muted pb-2"
+                            >
+                              Tanggal Kedua
+                            </h5>
+                            <div class="form-group pb-3">
+                              <input class="form-control" type="date" />
+                            </div>
+                          </div>
+                          <div class="col-auto">
+                            <div
+                              class="bg-gradient-warning text-center bg-calender text-white rounded-circle shadow"
+                            >
+                              <i class="fa fa-calendar-alt"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="mb-0 text-sm">
+                          Pilih Tanggal Setelah Tanggal Pertama
+                          <span class="text-danger">*</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12 mb-4">
+                    <div class="card card-stats shadow">
+                      <!-- Card body -->
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                            <h5
+                              class="card-title text-uppercase text-muted pb-2"
+                            >
+                              Tanggal Ketiga
+                            </h5>
+                            <div class="form-group pb-3">
+                              <input class="form-control pb-3" type="date" />
+                            </div>
+                          </div>
+                          <div class="col-auto">
+                            <div
+                              class="bg-gradient-primary text-center bg-calender text-white rounded-circle shadow"
+                            >
+                              <i class="fa fa-calendar-alt"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="mb-0 text-sm">
+                          Pilih Tanggal Setelah Tanggal Kedua
+                          <span class="text-danger">*</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12 mb-4">
+                    <div class="card card-stats shadow">
+                      <!-- Card body -->
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                            <h5
+                              class="card-title text-uppercase text-muted pb-2"
+                            >
+                              Nomor Telpon
+                            </h5>
+                            <div class="form-group pb-3">
+                              <input class="form-control" type="text" />
+                            </div>
+                          </div>
+                          <div class="col-auto">
+                            <div
+                              class="bg-gradient-success text-center bg-calender text-white rounded-circle shadow"
+                            >
+                              <i class="fa fa-phone-alt"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="mb-0 text-sm">
+                          Masukkan No Tlp/Hp <span class="text-danger">*</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12 mb-4">
+                    <div class="card card-stats shadow">
+                      <!-- Card body -->
+                      <div class="card-body">
+                        <div class="row">
+                          <div class="col">
+                            <h5
+                              class="card-title text-uppercase text-muted pb-2"
+                            >
+                              Diskusi
+                            </h5>
+                            <div class="form-group pb-3">
+                              <textarea
+                                class="form-control"
+                                rows="3"
+                                type="text"
+                              ></textarea>
+                            </div>
+                          </div>
+                          <div class="col-auto">
+                            <div
+                              class="bg-gradient-secondary text-center bg-calender text-white rounded-circle shadow"
+                            >
+                              <i class="far fa-comments"></i>
+                            </div>
+                          </div>
+                        </div>
+                        <p class="mb-0 text-sm">
+                          Masukkan Tanggapan <span class="text-danger">*</span>
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+      </section>
+    </main>
+    <footer class="section-footer mb-4 border-top">
+      <div class="container pt-5 pb-3">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <div class="row">
+              <div class="col-12 col-lg-5 logo-footer">
+                <a href="index.html"> BASIC </a>
+              </div>
+              <div class="col-12 col-lg-4">
+                <h5>Legacy Website BRIstars</h5>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="">BRIstars</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="col-12 col-lg-3">
+                <h5>Products</h5>
+                <ul class="list-unstyled">
+                  <li>
+                    <a href="">Products</a>
+                  </li>
+                  <li>
+                    <a href="">API & Documentation</a>
+                  </li>
+                  <li>
+                    <a href="">Frequently Asked Questions</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container-fluid pt-4 pb-1 border-top">
+        <div class="row justify-content-center">
+          <div
+            class="col-auto text-gray-500 font-weight-drak"
+            style="font-size: 14px"
+          >
+            © 2020 PT. Bank Rakyat Indonesia (Persero) Tbk
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="frontend/js/jquery-3.3.1.js"></script>
+    <script src="frontend/js/popper.min.js"></script>
+    <script src="frontend/js/bootstrap.js"></script>
+    <script src="frontend/js/all.js"></script>
+    <script src="frontend/js/main.js"></script>
+    <script>
+      $(document).ready(function () {
+        $("#listSearch").on("keyup", function () {
+          var value = $(this).val().toLowerCase();
+          $("#myList .kolom").filter(function () {
+            $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1);
+          });
+        });
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,309 @@
+@media only screen and (min-width: 320px) and (max-width: 640px) {
+  header {
+    margin-top: -70px !important;
+    padding: 180px 0 165px;
+    background-image: linear-gradient(180deg, #2d9cdb 0%, #2f80ed 100%);
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+  }
+
+  /* ac */
+  .ac h5 {
+    font-size: 20px;
+  }
+
+  .ac p {
+    font-size: 12px;
+  }
+
+  .ac input {
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 200px;
+    border-color: #2f80ed;
+    font-size: 14px !important;
+  }
+  .ac .bg-calender {
+    width: 50px;
+    height: 50px;
+    padding-top: 8px;
+    font-size: 22px;
+  }
+  /* ac akhir */
+  .section-header-left {
+    margin-top: 20px;
+  }
+  .section-header-left h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #7ed2fb;
+    margin-top: -30px;
+    border-radius: 5px;
+  }
+
+  .section-header-left h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 2px;
+  }
+
+  .section-header-left p {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 200;
+  }
+  .menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: #ffffff;
+  }
+  #mobile-menu {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    transform: translate(5%, 20%);
+  }
+
+  .menu-toggle .bar {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-toggle:hover {
+    cursor: pointer;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  #mobile-menu.is-active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  #mobile-menu.is-active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .navbar-collapse {
+    display: grid !important;
+    grid-template-columns: auto;
+    background: linear-gradient(180deg, #2d9cdb 0%, #2f80ed 100%);
+    height: 600px !important;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: auto;
+  }
+  .navbar-basic .nav-link {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    line-height: 30px;
+  }
+
+  .navbar-basic .nav-link:hover {
+    background-color: #f2994a;
+
+    transition: all 0.4s ease-out;
+  }
+
+  .navbar-collapse.active {
+    background: linear-gradient(180deg, #2d9cdb 0%, #2f80ed 100%);
+
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .dropdown-item {
+    margin-bottom: -5px;
+  }
+
+  .dropdown-item h3 {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 10px;
+    color: #000;
+  }
+
+  .dropdown-item p {
+    font-size: 10px;
+    font-weight: 200;
+    color: #73808c;
+    margin-top: -5px;
+  }
+  .judul h3 {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    margin-top: -90px;
+    text-align: center;
+  }
+  .image-about img {
+    padding-top: 40px;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .content-more img {
+    padding-top: 180px;
+    width: 100%;
+    display: block;
+  }
+  .header-1 {
+    margin-top: -50px !important;
+    padding: 140px 0 10px;
+    background-image: linear-gradient(180deg, #2d9cdb 0%, #2f80ed 100%);
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+  }
+  .header-2 img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 720px) and (max-width: 990px) {
+  .section-header-left {
+    margin-top: 20px;
+  }
+  .section-header-left h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 80px;
+    height: 5px;
+    background: #7ed2fb;
+    margin-top: -30px;
+    border-radius: 5px;
+  }
+
+  .section-header-left h1 {
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 2px;
+  }
+
+  .section-header-left p {
+    font-size: 12px;
+    color: #ffffff;
+    font-weight: 200;
+  }
+
+  .section-header-right img {
+    width: 100%;
+    margin-left: 25px;
+  }
+  .menu-toggle .bar {
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    transition: all 0.3s ease-in-out;
+    background: #ffffff;
+  }
+  #mobile-menu {
+    position: absolute;
+    top: 20%;
+    right: 5%;
+    transform: translate(5%, 20%);
+  }
+
+  .menu-toggle .bar {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-toggle:hover {
+    cursor: pointer;
+  }
+
+  #mobile-menu.is-active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  #mobile-menu.is-active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  #mobile-menu.is-active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .navbar-collapse {
+    display: grid !important;
+    grid-template-columns: auto;
+    background: linear-gradient(180deg, #2d9cdb 0%, #2f80ed 100%);
+    height: 600px !important;
+    width: 100%;
+    position: absolute;
+    top: 50px;
+    left: 100%;
+    opacity: 0;
+    transition: all 0.5s ease;
+
+    text-align: center;
+  }
+
+  .navbar-nav {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    margin-bottom: auto;
+  }
+  .navbar-basic .nav-link {
+    padding-left: 60px !important;
+    padding-right: 60px !important;
+    line-height: 30px;
+  }
+
+  .navbar-basic .nav-link:hover {
+    background-color: #f2994a;
+    transition: all 0.4s ease-out;
+  }
+
+  .navbar-collapse.active {
+    background: linear-gradient(180deg, #2d9cdb 0%, #2f80ed 100%);
+
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .dropdown-item {
+    margin-bottom: -5px;
+  }
+
+  .dropdown-item h3 {
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 10px;
+    color: #000;
+  }
+
+  .dropdown-item p {
+    font-size: 10px;
+    font-weight: 200;
+    color: #73808c;
+    margin-top: -5px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+}
